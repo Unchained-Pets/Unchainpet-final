@@ -6,34 +6,21 @@ const tranding_category_filter = [
   {
     id: 1,
     svg: "art",
-    text: "art",
+    text: "Dog",
   },
 
   {
     id: 2,
     svg: "collection",
-    text: "Collectibles",
+    text: "Cat",
   },
+
   {
-    id: 3,
-    svg: "domain",
-    text: "domain",
-  },
-  {
-    id: 4,
-    svg: "music",
-    text: "music",
-  },
-  {
-    id: 5,
-    svg: "photography",
-    text: "photography",
-  },
-  {
-    id: 6,
-    svg: "world",
-    text: "virtual world",
-  },
+    id: 2,
+    svg: "collection",
+    text: "Bird",
+  }
+
 ];
 
 const trendingCategoryData = [
