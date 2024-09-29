@@ -1,38 +1,28 @@
 const footerMenuList = [
   {
     id: 1,
-    title: "Marketplace",
+    title: "Explore",
     diffClass: "md:col-start-7",
     list: [
       {
         id: 1,
         href: "#",
-        text: "All NFTs",
+        text: "All Pets",
       },
       {
         id: 2,
         href: "#",
-        text: "art",
+        text: "Dogs",
       },
       {
         id: 3,
         href: "#",
-        text: "music",
-      },
-      {
-        id: 4,
-        href: "#",
-        text: "domain names",
+        text: "Cats",
       },
       {
         id: 5,
         href: "#",
-        text: "collections",
-      },
-      {
-        id: 6,
-        href: "#",
-        text: "virtual world",
+        text: "Birds",
       },
     ],
   },
@@ -41,11 +31,6 @@ const footerMenuList = [
     title: "Company",
     diffClass: "",
     list: [
-      {
-        id: 1,
-        href: "#",
-        text: "Explore",
-      },
       {
         id: 2,
         href: "#",

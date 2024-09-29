@@ -108,20 +108,20 @@ const Recently_added_dropdown = ({ data, dropdownFor }) => {
 		dispatch(updatetrendingCategorySorText(sortFilterText));
 	}, [sortFilterText, dispatch]);
 
-	const inputData = [
-		{
-			id: 1,
-			text: 'Verified Only',
-		},
-		{
-			id: 2,
-			text: 'NFSW Only',
-		},
-		{
-			id: 3,
-			text: 'Show Lazy Minted',
-		},
-	];
+	// const inputData = [
+	// 	{
+	// 		id: 1,
+	// 		text: 'Verified Only',
+	// 	},
+	// 	{
+	// 		id: 2,
+	// 		text: 'NFSW Only',
+	// 	},
+	// 	{
+	// 		id: 3,
+	// 		text: 'Show Lazy Minted',
+	// 	},
+	// ];
 
 	const handleInput = (e, text) => {
 		if (e.target.checked) {
@@ -198,7 +198,7 @@ const Recently_added_dropdown = ({ data, dropdownFor }) => {
 									);
 								})}
 
-								<span className="font-display text-jacarta-300 block px-5 py-2 text-sm font-semibold">
+								{/* <span className="font-display text-jacarta-300 block px-5 py-2 text-sm font-semibold">
 									Options
 								</span>
 								{inputData.map(({ id, text }) => {
@@ -218,7 +218,7 @@ const Recently_added_dropdown = ({ data, dropdownFor }) => {
 											</span>
 										</div>
 									);
-								})}
+								})} */}
 							</div>
 						}
 					>
