@@ -5,7 +5,7 @@ import Meta from "../../components/Meta";
 const Platform_status = () => {
   return (
     <div>
-      <Meta title="Platform Status || Xhibiter | NFT Marketplace Next.js Template" />
+      <Meta title="Platform Status UnchainPet: Decentralized Pet Adoption Network" />
       <div className="pt-[5.5rem] lg:pt-24">
         {/* <!-- Page Title --> */}
 
