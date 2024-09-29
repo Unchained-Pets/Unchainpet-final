@@ -12,7 +12,7 @@ import Meta from "../../components/Meta";
 const Partners = () => {
   return (
     <div>
-      <Meta title="Partners || Xhibiter | NFT Marketplace Next.js Template" />
+      <Meta title="Partners UnchainPet: Decentralized Pet Adoption Network" />
       <div className="pt-[5.5rem] lg:pt-24">
         {/* <!-- Benefits --> */}
         <section className="relative pt-32 pb-24">

@@ -14,7 +14,7 @@ const Blog = () => {
   };
   return (
     <>
-      <Meta title="Blog || Xhibiter | NFT Marketplace Next.js Template" />
+      <Meta title="Blog UnchainPet: Decentralized Pet Adoption Network" />
       {/* <!-- Blog --> */}
       <section className="relative  pt-[5.5rem] lg:pt-24">
         <div className="py-16 md:py-24">
