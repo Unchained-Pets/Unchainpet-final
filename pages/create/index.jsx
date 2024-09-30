@@ -75,7 +75,7 @@ const Create = () => {
             {/* <!-- File Upload --> */}
             <div className="mb-6">
               <label className="font-display text-jacarta-700 mb-2 block dark:text-white">
-                Image, Video, Audio, or 3D Model
+                Upload Images of pet
                 <span className="text-red">*</span>
               </label>
 
@@ -102,7 +102,7 @@ const Create = () => {
                     <path d="M16 13l6.964 4.062-2.973.85 2.125 3.681-1.732 1-2.125-3.68-2.223 2.15L16 13zm-2-7h2v2h5a1 1 0 0 1 1 1v4h-2v-3H10v10h4v2H9a1 1 0 0 1-1-1v-5H6v-2h2V9a1 1 0 0 1 1-1h5V6zM4 14v2H2v-2h2zm0-4v2H2v-2h2zm0-4v2H2V6h2zm0-4v2H2V2h2zm4 0v2H6V2h2zm4 0v2h-2V2h2zm4 0v2h-2V2h2z" />
                   </svg>
                   <p className="dark:text-jacarta-300 mx-auto max-w-xs text-xs">
-                    JPG, PNG, GIF, SVG, MP4, WEBM, MP3, WAV, OGG, GLB, GLTF. Max
+                    JPG, PNG, GIF, SVG,WEBM,OGG, GLB, GLTF. Max
                     size: 100 MB
                   </p>
                 </div>
@@ -137,7 +137,7 @@ const Create = () => {
             </div>
 
             {/* <!-- External Link --> */}
-            <div className="mb-6">
+            {/* <div className="mb-6">
               <label
                 htmlFor="item-external-link"
                 className="font-display text-jacarta-700 mb-2 block dark:text-white"
@@ -155,7 +155,7 @@ const Create = () => {
                 className="dark:bg-jacarta-700 border-jacarta-100 hover:ring-accent/10 focus:ring-accent dark:border-jacarta-600 dark:placeholder:text-jacarta-300 w-full rounded-lg py-3 px-3 hover:ring-2 dark:text-white"
                 placeholder="https://yoursite.io/item/123"
               />
-            </div>
+            </div> */}
 
             {/* <!-- Description --> */}
             <div className="mb-6">
@@ -281,7 +281,7 @@ const Create = () => {
                     <path d="M7 10h13a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V11a1 1 0 0 1 1-1h1V9a7 7 0 0 1 13.262-3.131l-1.789.894A5 5 0 0 0 7 9v1zm-2 2v8h14v-8H5zm5 3h4v2h-4v-2z" />
                   </svg>
 
-                  <div>
+                  {/* <div>
                     <label className="font-display text-jacarta-700 block dark:text-white">
                       Unlockable Content
                     </label>
@@ -289,7 +289,7 @@ const Create = () => {
                       Include unlockable content that can only be revealed by
                       the owner of the item.
                     </p>
-                  </div>
+                  </div> */}
                 </div>
                 <input
                   type="checkbox"
@@ -301,7 +301,7 @@ const Create = () => {
             </div>
 
             {/* <!-- Explicit & Sensitive Content --> */}
-            <div className="dark:border-jacarta-600 border-jacarta-100 relative mb-6 border-b py-6">
+            {/* <div className="dark:border-jacarta-600 border-jacarta-100 relative mb-6 border-b py-6">
               <div className="flex items-center justify-between">
                 <div className="flex">
                   <svg
@@ -316,36 +316,6 @@ const Create = () => {
                   </svg>
 
                   <div>
-                    <label className="font-display text-jacarta-700 dark:text-white">
-                      Explicit & Sensitive Content
-                    </label>
-
-                    <p className="dark:text-jacarta-300">
-                      Set this item as explicit and sensitive content.
-                      <Tippy
-                        content={
-                          <span>
-                            Setting your asset as explicit and sensitive
-                            content, like pornography and other not safe for
-                            work (NSFW) content, will protect users with safe
-                            search while browsing Xhibiter
-                          </span>
-                        }
-                      >
-                        <span className="inline-block">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24"
-                            width="24"
-                            height="24"
-                            className="dark:fill-jacarta-300 fill-jacarta-500 ml-2 -mb-[2px] h-4 w-4"
-                          >
-                            <path fill="none" d="M0 0h24v24H0z"></path>
-                            <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zM11 7h2v2h-2V7zm0 4h2v6h-2v-6z"></path>
-                          </svg>
-                        </span>
-                      </Tippy>
-                    </p>
                   </div>
                 </div>
                 <input
@@ -355,10 +325,10 @@ const Create = () => {
                   className="checked:bg-accent checked:focus:bg-accent checked:hover:bg-accent after:bg-jacarta-400 bg-jacarta-100 relative h-6 w-[2.625rem] cursor-pointer appearance-none rounded-full border-none after:absolute after:top-[0.1875rem] after:left-[0.1875rem] after:h-[1.125rem] after:w-[1.125rem] after:rounded-full after:transition-all checked:bg-none checked:after:left-[1.3125rem] checked:after:bg-white focus:ring-transparent focus:ring-offset-0"
                 />
               </div>
-            </div>
+            </div> */}
 
             {/* <!-- Supply --> */}
-            <div className="mb-6">
+            {/* <div className="mb-6">
               <label
                 htmlFor="item-supply"
                 className="font-display text-jacarta-700 mb-2 block dark:text-white"
@@ -401,7 +371,7 @@ const Create = () => {
                 className="dark:bg-jacarta-700 border-jacarta-100 hover:ring-accent/10 focus:ring-accent dark:border-jacarta-600 dark:placeholder:text-jacarta-300 w-full rounded-lg py-3 px-3 hover:ring-2 dark:text-white"
                 placeholder="1"
               />
-            </div>
+            </div> */}
 
             {/* <!-- Blockchain --> */}
             <div className="mb-6">
