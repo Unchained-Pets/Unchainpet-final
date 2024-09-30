@@ -12,12 +12,8 @@ const footer = () => {
             <div className="col-span-3 md:col-span-4">
               {/* <!-- Logo --> */}
               <Link href="#">
-                <a className="mb-6 inline-block">
-                  <img
-                    src="/images/logo.png"
-                    className="max-h-7 dark:hidden"
-                    alt="Xhibiter | NFT Marketplace"
-                  />
+                <a className="mb-6 inline-block text-xl font-bold">
+                  UnchainPets
                 </a>
               </Link>
 
@@ -31,7 +27,7 @@ const footer = () => {
                 </a>
               </Link>
               <p className="dark:text-jacarta-300 mb-12">
-                Create, sell and collect truly rare digital artworks. Powered by
+                Find a pet in our shelter today. Powered by
                 blockchain technology.
               </p>
 
@@ -84,11 +80,11 @@ const footer = () => {
 
           <div className="flex flex-col items-center justify-between space-y-2 py-8 sm:flex-row sm:space-y-0">
             <span className="dark:text-jacarta-400 text-sm">
-              <span>© {new Date().getFullYear()} Xhibiter — Made by</span>
+              <span>© {new Date().getFullYear()} UnchainedPets — Made</span>
               <Link href="https://themeforest.net/user/ib-themes">
                 <a className="hover:text-accent dark:hover:text-white">
                   {" "}
-                  ib-themes
+                  with Love
                 </a>
               </Link>
             </span>

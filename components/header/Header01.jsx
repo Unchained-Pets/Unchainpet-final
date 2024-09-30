@@ -35,21 +35,10 @@ export default function Header01() {
           <Link className="shrink-0" href="/">
             <a>
               <div className="dark:hidden">
-                <Image
-                  src={Logo}
-                  height={28}
-                  width={130}
-                  alt="Xhibiter | NFT Marketplace"
-                  className="max-h-7 h-auto "
-                />
+                <h1 className="text-xl font-bold text-jacarta-700">UnchainedPets</h1>
               </div>
               <div className="hidden dark:block">
-                <Image
-                  src={WhiteLogo}
-                  height={28}
-                  width={130}
-                  alt="Xhibiter | NFT Marketplace"
-                />
+              <h1 className="text-xl font-bold">UnchainedPets</h1>
               </div>
             </a>
           </Link>
