@@ -16,7 +16,7 @@ export default function Header03() {
                     src={Logo}
                     height={28}
                     width={130}
-                    alt="Xhibiter | NFT Marketplace"
+                    alt="UnchainedPet | NFT Marketplace"
                   />
                 </div>
                 <div className="hidden max-h-7 dark:block">
@@ -24,7 +24,7 @@ export default function Header03() {
                     src={WhiteLogo}
                     height={28}
                     width={130}
-                    alt="Xhibiter | NFT Marketplace"
+                    alt="UnchainedPet | NFT Marketplace"
                   />
                 </div>
               </a>

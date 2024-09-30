@@ -254,7 +254,6 @@ const trendingCategoryData = [
       image: "/images/avatars/owner_2.png",
     },
   },
-
   {
     image: "/images/pet/pet-22.jpg",
     id: "SwagFox#13310",

@@ -7,7 +7,7 @@ import "tippy.js/dist/tippy.css";
 import Likes from "../likes";
 import Auctions_dropdown from "../dropdown/Auctions_dropdown";
 import { useDispatch, useSelector } from "react-redux";
-import { buyModalShow } from "../../redux/counterSlice";
+import { buyModalShow, bidsModalShow } from "../../redux/counterSlice";
 
 const CategoryItem = () => {
   const { sortedtrendingCategoryItemData } = useSelector(
@@ -103,9 +103,9 @@ const CategoryItem = () => {
               <div className="mt-8 flex items-center justify-between">
                 <button
                   className="text-accent font-display text-sm font-semibold"
-                  onClick={() => dispatch(buyModalShow())}
+                  onClick={() => dispatch(bidsModalShow())}
                 >
-                  Buy now
+                  Place Bid
                 </button>
                 <Link href={`/item/${itemLink}`}>
                   <a className="group flex items-center">

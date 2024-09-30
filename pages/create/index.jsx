@@ -328,7 +328,7 @@ const Create = () => {
                             Setting your asset as explicit and sensitive
                             content, like pornography and other not safe for
                             work (NSFW) content, will protect users with safe
-                            search while browsing Xhibiter
+                            search while browsing UnchainedPet
                           </span>
                         }
                       >
@@ -375,7 +375,7 @@ const Create = () => {
                         Setting your asset as explicit and sensitive content,
                         like pornography and other not safe for work (NSFW)
                         content, will protect users with safe search while
-                        browsing Xhibiter.
+                        browsing UnchainedPet.
                       </span>
                     }
                   >
@@ -434,7 +434,7 @@ const Create = () => {
                       Setting your asset as explicit and sensitive content, like
                       pornography and other not safe for work (NSFW) content,
                       will protect users with safe search while browsing
-                      Xhibiter.
+                      UnchainedPet.
                     </span>
                   }
                 >

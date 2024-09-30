@@ -14,7 +14,6 @@ import WalletButton from "../wallet-btn/WalletButton";
 
 export default function Header01() {
   const [toggle, setToggle] = useState(false);
-  const [isCollapse, setCollapse] = useState(null);
 
   // window resize
   useEffect(() => {
@@ -35,10 +34,12 @@ export default function Header01() {
           <Link className="shrink-0" href="/">
             <a>
               <div className="dark:hidden">
-                <h1 className="text-xl font-bold text-jacarta-700">UnchainedPets</h1>
+                <h1 className="text-xl font-bold text-jacarta-700">
+                  UnchainedPets
+                </h1>
               </div>
               <div className="hidden dark:block">
-              <h1 className="text-xl font-bold">UnchainedPets</h1>
+                <h1 className="text-xl font-bold">UnchainedPets</h1>
               </div>
             </a>
           </Link>
@@ -96,7 +97,10 @@ export default function Header01() {
                       <button className="text-jacarta-700 font-display hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5">
                         <span
                           className={
-                            isChildrenPageActive(route.asPath, "/collection/item_20")
+                            isChildrenPageActive(
+                              route.asPath,
+                              "/collection/item_20"
+                            )
                               ? "text-accent  dark:text-accent"
                               : ""
                           }
@@ -276,7 +280,7 @@ export default function Header01() {
               src={Logo}
               height={28}
               width={130}
-              alt="Xhibiter | NFT Marketplace"
+              alt="UnchainedPet | NFT Marketplace"
               className="max-h-7 h-auto "
             />
           </div>
@@ -286,7 +290,7 @@ export default function Header01() {
               src={WhiteLogo}
               height={28}
               width={130}
-              alt="Xhibiter | NFT Marketplace"
+              alt="UnchainedPet | NFT Marketplace"
             />
           </div>
 
@@ -354,7 +358,10 @@ export default function Header01() {
                   <button className="text-jacarta-700 font-display hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5">
                     <span
                       className={
-                        isChildrenPageActive("/collection/item_20", route.asPath)
+                        isChildrenPageActive(
+                          "/collection/item_20",
+                          route.asPath
+                        )
                           ? "text-accent dark:text-accent"
                           : ""
                       }

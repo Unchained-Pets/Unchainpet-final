@@ -44,7 +44,7 @@ const Login = () => {
                 <img
                   src="/images/logo_white.png"
                   className="inline-block max-h-7"
-                  alt="Xhibiter | NFT Marketplace"
+                  alt="UnchainedPet | NFT Marketplace"
                 />
               </a>
             </Link>

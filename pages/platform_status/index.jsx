@@ -10,7 +10,7 @@ const Platform_status = () => {
         {/* <!-- Page Title --> */}
 
         <ImageTitle
-          text="Xhibiter System Status"
+          text="UnchainedPet System Status"
           image="/images/page-title/knowledge_base_banner.jpg"
         />
 
@@ -63,7 +63,7 @@ const Platform_status = () => {
                     </span>
                     <span
                       className="inline-block"
-                      data-tippy-content="Setting your asset as explicit and sensitive content, like pornography and other not safe for work (NSFW) content, will protect users with safe search while browsing Xhibiter."
+                      data-tippy-content="Setting your asset as explicit and sensitive content, like pornography and other not safe for work (NSFW) content, will protect users with safe search while browsing UnchainedPet."
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

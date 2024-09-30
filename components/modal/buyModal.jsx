@@ -16,7 +16,7 @@ const BuyModal = () => {
           <div className="modal-content">
             <div className="modal-header">
               <h5 className="modal-title" id="buyNowModalLabel">
-                Complete checkout
+                Place Bid
               </h5>
               <button
                 type="button"
@@ -50,7 +50,7 @@ const BuyModal = () => {
               <div className="dark:border-jacarta-600 border-jacarta-100 relative flex items-center border-t border-b py-4">
                 <figure className="mr-5 self-start">
                   <img
-                    src="/images/avatars/avatar_2.jpg"
+                    src="/images/pet/pet-22.jpg"
                     alt="avatar 2"
                     className="rounded-2lg"
                     loading="lazy"
@@ -133,8 +133,8 @@ const BuyModal = () => {
                   htmlFor="buyNowTerms"
                   className="dark:text-jacarta-200 text-sm"
                 >
-                  By checking this box, I agree to {"Xhibiter's"}{" "}
-                  <Link href="/tarms">
+                  By checking this box, I agree to {"UnchainedPet's"}{" "}
+                  <Link href="/terms">
                     <a className="text-accent">Terms of Service</a>
                   </Link>
                 </label>

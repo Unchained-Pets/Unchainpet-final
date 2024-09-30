@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { footerMenuList, socialIcons } from "../data/footer_data";
 
@@ -19,16 +20,17 @@ const footer = () => {
 
               <Link href="#">
                 <a className=" mb-6 inline-block">
-                  <img
+                  {/* <img
                     src="/images/logo_white.png"
                     className="hidden max-h-7 dark:block mb-6"
-                    alt="Xhibiter | NFT Marketplace"
-                  />
+                    alt="UnchainedPet | NFT Marketplace"
+                  /> */}
+                  {/* <span className="text-white">UnchainPets</span> */}
                 </a>
               </Link>
               <p className="dark:text-jacarta-300 mb-12">
-                Find a pet in our shelter today. Powered by
-                blockchain technology.
+                Find a pet in our shelter today. Powered by blockchain
+                technology.
               </p>
 
               {/* <!-- Socials --> */}
@@ -80,25 +82,24 @@ const footer = () => {
 
           <div className="flex flex-col items-center justify-between space-y-2 py-8 sm:flex-row sm:space-y-0">
             <span className="dark:text-jacarta-400 text-sm">
-              <span>© {new Date().getFullYear()} UnchainedPets — Made</span>
+              <span>© {new Date().getFullYear()} UnchainedPets</span>
               <Link href="https://themeforest.net/user/ib-themes">
                 <a className="hover:text-accent dark:hover:text-white">
                   {" "}
-                  with Love
                 </a>
               </Link>
             </span>
 
             <ul className="dark:text-jacarta-400 flex flex-wrap space-x-4 text-sm">
               <li>
-                <Link href="/tarms">
+                <Link href="/terms">
                   <a className="hover:text-accent dark:hover:text-white">
                     Terms and conditions
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="/tarms">
+                <Link href="/terms">
                   <a className="hover:text-accent dark:hover:text-white">
                     Privacy policy
                   </a>
