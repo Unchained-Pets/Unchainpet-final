@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import { items_data } from "../../data/items_data";

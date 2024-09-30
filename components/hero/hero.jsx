@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 
@@ -23,21 +24,20 @@ const hero = () => {
         <div className="grid h-full items-center gap-4 md:grid-cols-12">
           <div className="col-span-6 flex h-full flex-col items-center justify-center py-10 md:items-start md:py-20 xl:col-span-4">
             <h1 className="text-jacarta-700 font-bold font-display mb-6 text-center text-5xl dark:text-white md:text-left lg:text-6xl xl:text-7xl">
-              Find a Best Friend a in Pet.
+              Find your new pal!.
             </h1>
             <p className="dark:text-jacarta-200 mb-8 text-center text-lg md:text-left">
-              The worlds largest digital marketplace for crypto collectibles and
-              non-fungible tokens
+            The world's largest decentralized platform for pet adoption, powered by blockchain and NFT technology, offering secure and transparent ownership of adopted pets as digital collectibles.
             </p>
             <div className="flex space-x-4">
-              <Link href="/create">
+              {/* <Link href="/create">
                 <a className="bg-accent shadow-accent-volume hover:bg-accent-dark w-36 rounded-full py-3 px-8 text-center font-semibold text-white transition-all">
                   Upload
                 </a>
-              </Link>
+              </Link> */}
               <Link href="/collection/explore_collection">
-                <a className="text-accent shadow-white-volume hover:bg-accent-dark hover:shadow-accent-volume w-36 rounded-full bg-white py-3 px-8 text-center font-semibold transition-all hover:text-white">
-                  Explore
+                <a className="text-accent shadow-white-volume hover:bg-accent-dark hover:shadow-accent-volume w-70 rounded-full bg-white py-3 px-8 text-center font-semibold transition-all hover:text-white">
+                  Explore Shelter
                 </a>
               </Link>
             </div>

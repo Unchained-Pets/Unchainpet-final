@@ -203,7 +203,7 @@ export default function Header04() {
       {
         id: uuidv4(),
         name: "Terms of Service",
-        path: "/tarms",
+        path: "/terms",
       },
     ],
   };
@@ -428,7 +428,7 @@ export default function Header04() {
                   src={Logo}
                   height={28}
                   width={130}
-                  alt="Xhibiter | NFT Marketplace"
+                  alt="UnchainedPet | NFT Marketplace"
                   className="max-h-7 h-auto "
                 />
               </div>
@@ -437,7 +437,7 @@ export default function Header04() {
                   src={WhiteLogo}
                   height={28}
                   width={130}
-                  alt="Xhibiter | NFT Marketplace"
+                  alt="UnchainedPet | NFT Marketplace"
                 />
               </div>
             </a>
@@ -695,7 +695,7 @@ export default function Header04() {
               src={Logo}
               height={28}
               width={130}
-              alt="Xhibiter | NFT Marketplace"
+              alt="UnchainedPet | NFT Marketplace"
               className="max-h-7 h-auto "
             />
           </div>
@@ -705,7 +705,7 @@ export default function Header04() {
               src={WhiteLogo}
               height={28}
               width={130}
-              alt="Xhibiter | NFT Marketplace"
+              alt="UnchainedPet | NFT Marketplace"
             />
           </div>
 
