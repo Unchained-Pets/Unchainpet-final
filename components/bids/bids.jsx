@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import "swiper/css";
 import "swiper/css/navigation";
 import { HeadLine } from "../component";
